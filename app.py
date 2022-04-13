@@ -130,7 +130,7 @@ def storage():
     _correo = request.form['txtCorreo']
     _foto = request.files['txtFoto']
 
-    if _nombre == "" or _correo == "" or _foto == "":
+    if _nombre == "" or _correo == "" or _foto.filename == "" :
         flash('Recuerda llenar los datos de los campos')
         return redirect(url_for('create'))
 
