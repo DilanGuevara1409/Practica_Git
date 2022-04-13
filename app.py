@@ -131,7 +131,7 @@ def storage():
     _foto = request.files['txtFoto']
 
     if _nombre == "" or _correo == "" or _foto.filename == "" :
-        flash('Recuerda llenar los datos de los campos')
+        flash('Debes rellenar los datos de los campos')
         return redirect(url_for('create'))
 
     now = datetime.now()
