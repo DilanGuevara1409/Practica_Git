@@ -7,4 +7,8 @@
 ### Descripcion:
 Este es un pequeño proyecto de python para la gestion de los empleados, se utilizo flask para su realizacion ademas de phpmyadmin como gestor de base de datos.
 
+### Inicializacion:
+Para poder lanzar este proyecto es necesario que tengas instalado python como flask en tu computador, para lanzarlo 
+solo debes aplicar la sigiente linea de codigo:
+
 ### Gracias
