@@ -123,7 +123,7 @@ def create():
 
 #________________________________GUARDAR DATOS_________________________________
 
-@app.route('/store', methods = ['POST'])
+@app.route('/save', methods = ['POST'])
 def storage():
 
     _nombre = request.form['txtNombre']
