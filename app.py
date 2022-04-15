@@ -84,7 +84,7 @@ def update():
     _foto = request.files['txtFoto']
     _id = request.form['txtID']
 
-    if _nombre == "" or _correo == "" or _foto == "":
+    if _nombre == "" or _correo == "" or _foto.filename == "":
         flash('No puedes dejar campos vacios puto')
         return redirect(url_for('edit', id = _id))
 
